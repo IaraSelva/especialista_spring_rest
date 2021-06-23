@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseBody"/>
+    <fullyQualifiedTypeName name="java.math.BigDecimal"/>
+    <fullyQualifiedTypeName name="exemplo.di.Main"/>
+    <fullyQualifiedTypeName name="exemplo.service.AtivacaoClienteService"/>
+    <fullyQualifiedTypeName name="exemplo.Cliente"/>
+    <fullyQualifiedTypeName name="exemplo.notificacao.Notificador"/>
+    <fullyQualifiedTypeName name="exemplo.notificacao.NotificadorEmail"/>
+    <fullyQualifiedTypeName name="exemplo.service.EmissaoNotaFiscal"/>
+    <fullyQualifiedTypeName name="exemplo.Produto"/>
+</qualifiedTypeNameHistroy>

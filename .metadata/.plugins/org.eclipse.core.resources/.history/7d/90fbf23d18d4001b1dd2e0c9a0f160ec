@@ -1,0 +1,5 @@
+package exemplo.notificacao;
+
+public interface Notificador {
+
+}

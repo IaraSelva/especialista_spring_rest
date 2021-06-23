@@ -1,0 +1,11 @@
+package exemplo.service;
+
+import exemplo.Cliente;
+
+public class AtivacaoClienteService {
+
+	public void ativar (Cliente cliente) {
+		cliente.ativar();
+		
+	}
+}

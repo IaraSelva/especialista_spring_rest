@@ -1,0 +1,16 @@
+package exemplo.service;
+
+import exemplo.Cliente;
+import exemplo.Produto;
+import exemplo.notificacao.NotificadorEmail;
+
+public class EmissaoNotaFiscal {
+	
+	public void emitir(Cliente cliente, Produto produto) {
+		
+		NotificadorEmail notificador = new NotificadorEmail();
+		notificador.notificar(cliente, "Nota fiscal do produto %s foi emitida"
+								+ produto.getNome());
+	}
+
+}

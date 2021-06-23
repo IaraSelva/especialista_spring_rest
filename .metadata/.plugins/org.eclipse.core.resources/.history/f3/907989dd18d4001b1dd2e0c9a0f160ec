@@ -1,0 +1,13 @@
+package exemplo.service;
+
+import exemplo.Cliente;
+import exemplo.notificacao.NotificadorEmail;
+
+public class AtivacaoClienteService {
+
+	public void ativar (Cliente cliente) {
+		cliente.ativar();
+		NotificadorEmail notificador = new NotificadorEmail();
+		notificador.notificar(cliente, "Seu cadastro foi ativado.");
+	}
+}

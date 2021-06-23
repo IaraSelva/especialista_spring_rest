@@ -1,0 +1,14 @@
+package exemplo.notificacao;
+
+import exemplo.Cliente;
+
+public class NotificadorEmail {
+	
+	public void notificar(Cliente cliente, String mensagem) {
+		System.out.println("Notificando "+
+							cliente.getNome()+
+							"no e-mail "+
+							cliente.getEmail());
+	}
+
+}
